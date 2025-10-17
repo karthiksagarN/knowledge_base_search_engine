@@ -37,7 +37,7 @@ It leverages **Retrieval-Augmented Generation (RAG)** using **LangChain**, **Chr
                             ▼
                   ┌────────────────────┐
                   │  Vector Database   │
-                  │ (ChromaDB)         │
+                  │ (Pinecone)         │
                   └────────────────────┘
                             │
                             ▼
@@ -105,9 +105,9 @@ pip install -r requirements.txt
 ```
 
 ### **Step 3: Run Ollama**
-Ensure Ollama is installed and models (`mistral`, `nomic-embed-text`) are available.
+Ensure Ollama is installed and models (`llama3`, `nomic-embed-text`) are available.
 ```bash
-ollama pull mistral
+ollama pull llama3
 ollama pull nomic-embed-text
 ```
 
@@ -155,9 +155,9 @@ streamlit run app.py
 |------------|------|
 | Frontend | Streamlit |
 | Backend | Python + LangChain |
-| Vector Database | ChromaDB |
+| Vector Database | Pinecone |
 | Embeddings | OllamaEmbeddings (`nomic-embed-text`) |
-| LLM | OllamaLLM (`mistral`) |
+| LLM | OllamaLLM (`LLama-3`) |
 | File Loader | LangChain’s PyPDFLoader |
 
 ---
@@ -181,5 +181,4 @@ streamlit run app.py
 
 ## 🧑‍💻 Author
 **N. Karthik Sagar**  
-AI Developer | Machine Learning & NLP Enthusiast  
-[GitHub](https://github.com/karthiksagarn) | [LinkedIn](https://linkedin.com/in/karthiksagarn)
+[GitHub](https://github.com/karthiksagarn) | [LinkedIn](https://linkedin.com/in/karthik-sagar-nallagula)
