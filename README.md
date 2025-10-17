@@ -1,5 +1,9 @@
 # 📘 Knowledge-base Search Engine — Documentation
 
+## 🔗 Quick Links
+- **DEMO VIDEO FILE:** [Click Here](https://drive.google.com/file/d/1_Pqf8hIO8-o3JCM4TpzvDWDT8XyzaH46/view?usp=sharing)  
+- **GITHUB CODE:** [Click Here](https://github.com/karthiksagarN/knowledge_base_search_engine)
+
 ## 🔍 Overview
 The **Knowledge-base Search Engine** is an AI-powered system that allows users to query across multiple documents (PDFs) and receive synthesized, context-aware answers.  
 It leverages **Retrieval-Augmented Generation (RAG)** using **LangChain**, **ChromaDB**, and **Ollama LLMs** to retrieve relevant information and generate concise responses.
